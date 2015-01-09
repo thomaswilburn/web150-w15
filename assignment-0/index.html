@@ -8,10 +8,22 @@
     This space intentionally left blank.
     <script>
 console.log("Hello, world");
-var name = "Thomas";
+var firstName = "Thomas";
+firstName = "Alice";
+firstName = 3; //don't do this
+/*
+everything between here is ignored.
+*/
     </script>
     <script>
-console.log(name);
+var x = (1 + 2) * 3;
+
+console.log(firstName);
+var pi = prompt("What's the value of Pi?");
+console.log(pi + pi); //wrong! still a string!
+pi = Number(pi);
+var tau = pi + pi;
+console.log(tau);
     </script>
   </body>
 </html>
